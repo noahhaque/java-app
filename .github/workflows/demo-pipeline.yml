@@ -2,9 +2,9 @@ name: Build and package Java app with Maven, then create Docker image and push t
 
 on:
   push:   
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build: 
